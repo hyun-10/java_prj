@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style src="co.css"></style>
+   <style>
+      header{
+           width:90%;
+           margin: auto;
+           position: relative;
+           margin-top: 30px;
+       }
+       header b{
+           position: absolute;
+           margin-top: 50px;
+           left: 45%;
+       }
+       .login{
+           position: relative;
+           height: 50px;
+           width: 90%;
+           margin: auto;
+       }
+       .login1{
+           position: absolute;
+           right: 0px;
+       }
+        .login button{
+            height: 40px;
+           width: 120px;
+           border-radius: 5px;
+           right: 15px;
+           margin-right: 0%;
+        }
+       nav{
+        
+           display:flex;
+           flex-wrap: wrap;
+       }
+       .nav{
+           cursor: pointer;
+           width:200;
+           height:50px;
+           font-weight: bolder;
+           line-height: 50px;
+           text-align: center;
+           margin: auto;
+       }
+       .option{
+           width: 90%;
+           height: 100px;
+           margin: auto;
+           margin-top: 50px;
+           position: relative;
+       }
+       .option1{
+           position: absolute;
+           border-radius: 15px;
+           text-align: center;
+            appearance: none;
+           font-size: 30px;
+           height: 100%;
+           width: 15%;
+       }
+       .option2{
+           position:absolute;
+           border-radius: 15px;
+           text-align: center;
+           appearance: none;
+           font-size: 30px;
+           height: 100%;
+           width: 15%;
+           left: 23%;
+       }
+       .option3{
+           position: absolute;
+           border-radius: 15px;
+           text-align: center;
+           appearance: none;
+           font-size: 30px;
+        height: 97%;
+        width: 15%;
+        right: 39%;
+       }
+       .option4{
+         position: absolute;
+         border-radius: 15px;
+         text-align: center;
+         appearance: none;
+         font-size: 25px;
+           height: 100%;
+           width: 15%;
+           right: 16%;
+       }
+       .option button{
+           position: absolute;
+           border-radius: 15px;
+           font-size: 30px;
+           height: 100%;
+           width: 8%;
+           right: 0%;
+       }
+       .event{
+           display: flex;
+           margin: auto;
+           margin-top: 50px;
+           height: 400px;
+           width: 90%;
+       }
+       .event div{
+           margin: auto;
+           height: 400px;
+           width: 40%;
+       }
+       #img1{
+        border-radius: 15px;
+          height: 100%;
+          width: 100%;
+       }
+       #img2{
+        border-radius: 15px;
+          height: 100%;
+          width: 100%;
+       }
+       a{
+        text-decoration: none;
+        }
+        a:visited{
+            color: black;
+        }
+   </style>
+
+<script src="../js/home.js">  </script>
+</head>
+<body>
+    <div class="wrap">
+       
+    <header>
+        <image src="../images/로고1-1.PNG" style="width:250px; height:140px;"></image>
+        <b style="font-size:50px">A.A항공</b>
+        
+</header>
+    <div class="login">
+        <div class="login1">
+         <button style="font-size: 20px;">로그아웃</button>
+         <button style="font-size: 20px;">마이페이지</button>
+        </div>
+    </div>
+<nav>
+    <div class="nav">항공기 안내</div>    
+<div class="nav">좌석 클래스 안내</div>    
+<div class="nav">서비스 안내</div>    
+</nav>
+
+<hr>
+
+<nav class="option">
+    <div>
+        
+        <select class="option1" id="sel1" onchange="changeImg()">
+            
+            <option value="../images/여행사진1.png">출발지</option>
+            <option value="../images/인천.png">인천</option>
+            <option value="../images/김포.png">김포</option>
+            <option value="../images/제주.png">제주</option>
+            <option value="../images/부산.png">부산</option>
+            <option value="../images/여수.png">여수</option>
+        </select>
+    </div>
+    <div>
+    <select class="option2"  id="sel2"  onchange="change();">      
+        <option value="../images/여행사진2.png">목적지</option>
+        <option value="../images/인천.png" >인천</option>
+        <option value="../images/김포.png">김포</option>
+        <option value="../images/제주.png">제주</option>
+        <option value="../images/부산.png">부산</option>
+        <option value="../images/여수.png">여수</option>
+    </select>
+</div>
+    <div>
+        <input class="option3" type="date" class="option">
+    </div>
+    <div>
+        <select class="option4">
+            <option>출발 시간(범위)</option>
+            <option>00:00~03:00</option>
+            <option>03:00~06:00</option>
+            <option>06:00~09:00</option>
+            <option>09:00~12:00</option>
+            <option>12:00~15:00</option>
+            <option>15:00~18:00</option>
+            <option>18:00~21:00</option>
+            <option>21:00~24:00</option>
+        </select>
+    </div>
+    <div><button>검색</button></div>
+</nav>
+
+    <div class="event">
+        <div>
+            
+            <img id="img1" src="../images/여행사진1.png">
+        </div>
+
+        <div>
+            <img id="img2" src="../images/여행사진2.png">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
