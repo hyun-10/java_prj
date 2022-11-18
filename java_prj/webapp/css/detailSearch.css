@@ -1,0 +1,127 @@
+.BigI{
+    border:1px solid black;
+    text-align: center;
+    width:1600px;
+    height:800px;
+    
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#indexbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+
+#leftIndex{
+    border:1px solid black;
+    border-radius: 30px;
+    margin:65px;
+    padding:10px;
+    width:600px;
+}
+#rightIndex{
+    border:1px solid black;
+    border-radius: 30px;
+    margin:50px;
+    padding:10px;
+    width:700px;
+}
+
+td, th{
+    border: 1px solid black;
+}
+table{
+    margin:auto;
+    width:600px;
+    font-size:20px;
+    margin-top: 100px;
+    
+}
+tr{
+    line-height: 30px;
+}
+
+.info{
+    width:150px;
+    height:100px;
+    border:1px solid black;
+    border-radius: 10px;
+    margin:auto;
+    line-height: 100px;
+    
+}
+#dp{
+    font-size:30px;
+    display:flex;
+    flex-wrap: wrap;
+}
+#ar{
+    font-size:30px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:30px;
+}
+#airno{
+    margin-top:60px;
+}
+#infobox{
+    font-size:30px;
+    margin-top: 100px;
+}
+#rightIndex{
+    position:relative;
+}
+#rightboxfoot{
+   position:absolute;
+    bottom: 100px;
+    margin-left:300px;
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+#rightboxfoot button{
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+#searchbtns{
+    margin:auto;
+    
+}
+#searchbtn{
+    margin:auto;
+    font-size: 20px;
+}
+#indextbl{
+    border-collapse: collapse;
+   
+}
+th, td{
+    border:0.5px solid rgb(200, 224, 255);
+}
+button{
+    color:blue;
+    border:1.5px solid blueviolet;
+    border-radius: 10px;
+}
+
+#rightIndex button:nth-child(1){
+    background-color:black;
+    color:white;
+    border-radius: 10px;
+}
+#rightIndex button:nth-child(2){
+    background-color:rgb(248, 233, 233);
+    color:black;
+    border-radius: 10px;
+}
+#rightIndex button:nth-child(3){
+    background-color:rgb(248, 233, 233);
+    color:black;
+    border-radius: 10px;
+}

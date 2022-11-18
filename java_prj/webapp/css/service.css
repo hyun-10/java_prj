@@ -1,0 +1,33 @@
+
+
+li{
+    font-size: 20px;
+}
+h2{
+    color:#00256c;
+    font-size:30px
+}
+h1{
+    font-size: 35px;
+}
+#lastul{
+    background-color: rgb(209, 206, 206);
+
+}
+#lastul li{
+    background-color: rgb(209, 206, 206);
+    color:black;
+    line-height: 30px;
+  
+}
+
+.lisn{
+    list-style: none;
+}
+#lastul h2{
+    background-color: rgb(209, 206, 206);
+    font-size: 25px;
+}
+.wrap{
+    margin-left:50px;
+}

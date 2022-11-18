@@ -1,0 +1,15 @@
+td, th{
+    border-bottom:0.1px dotted black;
+    width:500px;
+}
+table{
+    border-collapse: collapse;
+    margin:auto;
+}
+tr{
+    line-height: 50px;
+    text-align: center;
+
+}
+
+

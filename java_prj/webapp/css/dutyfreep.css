@@ -1,0 +1,53 @@
+#headdiv{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(197, 196, 196);
+   position:relative;
+
+    
+}
+#headdiv image{
+    position: absolute;
+    margin-right:10px;
+}
+#headdivm{
+    background-color: rgb(197, 196, 196);
+    font-size: 40px;
+    padding-left: 20px;
+    
+}
+table{
+    border-collapse: collapse;
+    font-size:20px;
+    width:1200px;
+    height: 200px;
+    text-align: center;
+    margin:auto;
+}
+td, th{
+    border:1px solid black;
+    
+}
+
+th{
+    background-color: rgb(236, 236, 236);
+}
+h1{
+    text-align: center;
+}
+.paymenttbl li{
+ text-align: left;
+}
+
+#ccinfo{
+    background-color: rgb(236, 236, 236);
+}
+#ccinfo li{
+    background-color: rgb(236, 236, 236);
+}
+ul li{
+    text-align: center;
+}
+*{
+    background-color: rgb(255, 255, 255);
+}
